@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Ads: 590224479 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-590224479"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'AW-590224479');
+	</script>
+	<!-- Global site tag END -->
+	<title>Bigbarn</title>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta name="viewport" content="width=360">
+	<link type="text/css" rel="stylesheet" href="css/styles.css">
+	<script src="../js/detectBrowserD.js"></script>
+	<script>
+		function setInputEnd(id) {
+			var el = document.getElementById(id);
+			el.selectionStart = el.selectionEnd = el.value.length;
+			el.focus();
+		}
+	</script>
+</head>
+
+<body>
+
+	<div class="container">
+
+		<!--Idioma inicio-->
+		<a href="javascript:void(0);" id="lng_select" onclick="btnLng();">
+			<span lng-a>العربية</span>
+			<span lng-b class="ltr">English</span>
+		</a>
+		<!--Idioma fin-->
+
+		<!--Imagenes inicio-->
+		<div class="characters">
+			<span class="a"></span>
+			<span class="b"></span>
+		</div>
+		<!--Imagenes fin-->
+
+		<div class="header">
+			<p lng-a>Bigbarn club</p>
+			<p lng-b>&nbsp;</p>
+		</div>
+
+		<div id="form">
+
+			<div class="logo"></div>
+			<h1>
+				<span lng-a>Play and meet real players</span>
+				<span lng-b>&nbsp;</span>
+			</h1>
+			<!--Paso 01 inicio-->
+			<div id="mobile_box" class="active">
+				<div class="input_group anim">
+					<span class="label strong">
+						<i class="icon icon-phone"></i>
+						<span lng-a>Enter your mobile number and access</span>
+						<span lng-b>اپنا موبائل نمبر درج کیجئے</span>
+					</span>
+					<input placeholder="mobile" autocomplete="off" maxlength="11" id="mobile" type="tel"
+						autofocus="autofocus" onKeyPress="return validar(event)" onfocus="setInputEnd('mobile')">
+				</div>
+				<div class="button-container">
+					<a href="javascript:void(0);" class="button" onclick="btnNext1();">
+						<i class="icon left a"></i>
+						<i class="icon left b"></i>
+						<span lng-a class="text-btn11">Subscribe</span>
+						<span lng-b class="text-btn11">اشترك</span>
+						<span id="textloading" class="text-loading">Loading</span>
+						<span class="shine-container">
+							<span class="shine"></span>
+						</span>
+						<i class="icon right b"></i>
+						<i class="icon right a"></i>
+					</a>
+					<div class="light"></div>
+				</div>
+				<!-- -->
+			</div>
+			<!--Paso 01 fin-->
+			<!--Paso 02 inicio-->
+			<div id="pin_box">
+				<div class="input_group anim">
+					<span class="label strong">
+						<i class="icon icon-pin"></i>
+						<span lng-a>Enter the PIN received on your mobile</span>
+						<span lng-b>اپنے موبائل پہ موصول ہونے والی پن درج کریں</span>
+					</span>
+					<input autocomplete="off" maxlength="6" class="textfield" type="tel" id="pin" placeholder="PIN"
+						onKeyPress="return validar(event)">
+				</div>
+				<div class="button-container">
+					<a href="javascript:void(0);" class="button" onclick="btnNext2();">
+						<i class="icon left a"></i>
+						<i class="icon left b"></i>
+						<span lng-a class="text-btn12">Continue</span>
+						<span lng-b class="text-btn12">إستمر</span>
+						<span id="text-loading-pin" class="text-loading-pin">Loading</span>
+						<span class="shine-container">
+							<span class="shine"></span>
+						</span>
+						<i class="icon right b"></i>
+						<i class="icon right a"></i>
+					</a>
+					<div class="light"></div>
+				</div>
+			</div>
+			<!--Paso 02 fin-->
+			<!--Paso 03 inicio-->
+			<div id="resultado">
+				<h3>
+					<span lng-a>Congratulations</span>
+					<span lng-b>مبارک ہو</span>
+				</h3>
+				<p>
+					<span lng-a>You will receive the required content soon!</span>
+					<span lng-b>اب آپ بہترین مواد تک رسائی حاصل کر سکتے ہیں</span>
+				</p>
+			</div>
+			<!--Paso 03 fin-->
+		</div>
+
+		<!--Footer inicio-->
+	<div class="footer">
+    	<ul lng-a >
+    		<p style="text-align: center;">By clicking on the above subscribe button, you will agree on the below terms and conditions. This is an ongoing subscription service until you unsubscribe. By subscribing to BBW, you will be charged 0.263 OMR per day (Price includes 5% VAT). Data charges are billed separately by mobile operator. Omantel users can unsubscribe from the service anytime by sending UNSUB d to  92581. Ooredoo users can unsubscribe from the service anytime by sending UNSUB bbwd  to 91246</p>
+    	</ul>
+		<ul lng-b>
+			<p style="text-align: center;">By clicking on the above subscribe button, you will agree on the below terms and conditions. This is an ongoing subscription service until you unsubscribe. By subscribing to BBW, you will be charged 0.263 OMR per day (Price includes 5% VAT). Data charges are billed separately by mobile operator. Omantel users can unsubscribe from the service anytime by sending UNSUB d to  92581. Ooredoo users can unsubscribe from the service anytime by sending UNSUB bbwd  to 91246</p>
+		</ul>
+	</div>
+	<!--Footer fin-->
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="../js/params.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+
+</html>
